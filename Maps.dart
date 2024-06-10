@@ -23,13 +23,12 @@ void main() {
     "model": 2018,
     "number": "LEX-12"
   };
-  void main() {
-    Map<String, String> myDetails = {
-      'name': 'John Doe',
-      'address': 'USA',
-      'fathername': 'Soe Doe'
-    };
+  print(carRecords);
+  Map<String, String> myDetails = {
+    'name': 'John Doe',
+    'address': 'USA',
+    'fathername': 'Soe Doe'
+  };
 // displaying the output
-    print(myDetails['name']);
-  }
+  print(myDetails['name']);
 }
